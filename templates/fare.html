@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fare Calculation</title>
+</head>
+<body>
+    <h2>Fare Calculation for {{ user }}</h2>
+    <form method="POST">
+        <label>Start coordinates (lng,lat):</label>
+        <input type="text" name="start" placeholder="e.g. 77.5946,12.9716" required><br><br>
+
+        <label>End coordinates (lng,lat):</label>
+        <input type="text" name="end" placeholder="e.g. 77.5986,12.9796" required><br><br>
+
+        <button type="submit">Calculate Fare</button>
+    </form>
+    <br>
+    <a href="/analytics">See Analytics</a> | <a href="/">Home</a>
+</body>
+</html>
